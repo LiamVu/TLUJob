@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		014D8273244F58EB00D34B09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014D8272244F58EB00D34B09 /* AppDelegate.swift */; };
+		014D8275244F58EB00D34B09 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014D8274244F58EB00D34B09 /* SceneDelegate.swift */; };
+		014D8277244F58EB00D34B09 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014D8276244F58EB00D34B09 /* LoginController.swift */; };
+		014D827A244F58EB00D34B09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 014D8278244F58EB00D34B09 /* Main.storyboard */; };
+		014D827C244F58EE00D34B09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 014D827B244F58EE00D34B09 /* Assets.xcassets */; };
+		014D827F244F58EE00D34B09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 014D827D244F58EE00D34B09 /* LaunchScreen.storyboard */; };
+		014D828E244F686500D34B09 /* Custombutton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014D828D244F686500D34B09 /* Custombutton.swift */; };
+		01AD74CF24547CD0003ACA4A /* SplashController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AD74CE24547CD0003ACA4A /* SplashController.swift */; };
+		01B8351824572C5200E779EA /* IntroController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B8351724572C5200E779EA /* IntroController.swift */; };
+		F305DD3F6AA46011A717183E /* Pods_TLUJob.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7F149194D1C0C91FC3FC66D /* Pods_TLUJob.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		014D826F244F58EB00D34B09 /* TLUJob.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TLUJob.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		014D8272244F58EB00D34B09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		014D8274244F58EB00D34B09 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		014D8276244F58EB00D34B09 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		014D8279244F58EB00D34B09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		014D827B244F58EE00D34B09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		014D827E244F58EE00D34B09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		014D8280244F58EE00D34B09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		014D828D244F686500D34B09 /* Custombutton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Custombutton.swift; sourceTree = "<group>"; };
+		01AD74CE24547CD0003ACA4A /* SplashController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashController.swift; sourceTree = "<group>"; };
+		01AD74D024548E68003ACA4A /* Quicksand-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Quicksand-Bold.ttf"; path = "../../../../Downloads/Quicksand/static/Quicksand-Bold.ttf"; sourceTree = "<group>"; };
+		01AD74D124548E68003ACA4A /* Quicksand-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Quicksand-Light.ttf"; path = "../../../../Downloads/Quicksand/static/Quicksand-Light.ttf"; sourceTree = "<group>"; };
+		01AD74D224548E68003ACA4A /* Quicksand-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Quicksand-Medium.ttf"; path = "../../../../Downloads/Quicksand/static/Quicksand-Medium.ttf"; sourceTree = "<group>"; };
+		01AD74D324548E68003ACA4A /* Quicksand-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Quicksand-Regular.ttf"; path = "../../../../Downloads/Quicksand/static/Quicksand-Regular.ttf"; sourceTree = "<group>"; };
+		01AD74D424548E68003ACA4A /* Quicksand-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Quicksand-SemiBold.ttf"; path = "../../../../Downloads/Quicksand/static/Quicksand-SemiBold.ttf"; sourceTree = "<group>"; };
+		01B8351724572C5200E779EA /* IntroController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroController.swift; sourceTree = "<group>"; };
+		1B0D4DE08097507E2A821B6A /* Pods-TLUJob.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TLUJob.debug.xcconfig"; path = "Target Support Files/Pods-TLUJob/Pods-TLUJob.debug.xcconfig"; sourceTree = "<group>"; };
+		4E8F0938664E4BB33C16D88A /* Pods-TLUJob.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TLUJob.release.xcconfig"; path = "Target Support Files/Pods-TLUJob/Pods-TLUJob.release.xcconfig"; sourceTree = "<group>"; };
+		E7F149194D1C0C91FC3FC66D /* Pods_TLUJob.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TLUJob.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		014D826C244F58EB00D34B09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F305DD3F6AA46011A717183E /* Pods_TLUJob.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		014D8266244F58EB00D34B09 = {
+			isa = PBXGroup;
+			children = (
+				014D8271244F58EB00D34B09 /* TLUJob */,
+				014D8270244F58EB00D34B09 /* Products */,
+				09C71D7EEA6E5DE954820E42 /* Pods */,
+				952BB7BBC2DBFDCCE666DAD6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		014D8270244F58EB00D34B09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				014D826F244F58EB00D34B09 /* TLUJob.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		014D8271244F58EB00D34B09 /* TLUJob */ = {
+			isa = PBXGroup;
+			children = (
+				014D8286244F593500D34B09 /* Service */,
+				014D828A244F595900D34B09 /* Resource */,
+				014D8289244F594B00D34B09 /* Login */,
+				014D8288244F594000D34B09 /* Extension */,
+				014D8287244F593B00D34B09 /* View */,
+				014D8272244F58EB00D34B09 /* AppDelegate.swift */,
+				014D8274244F58EB00D34B09 /* SceneDelegate.swift */,
+				014D8280244F58EE00D34B09 /* Info.plist */,
+			);
+			path = TLUJob;
+			sourceTree = "<group>";
+		};
+		014D8286244F593500D34B09 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		014D8287244F593B00D34B09 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				014D828D244F686500D34B09 /* Custombutton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		014D8288244F594000D34B09 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		014D8289244F594B00D34B09 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				014D8276244F58EB00D34B09 /* LoginController.swift */,
+				014D8278244F58EB00D34B09 /* Main.storyboard */,
+				014D827D244F58EE00D34B09 /* LaunchScreen.storyboard */,
+				01AD74CE24547CD0003ACA4A /* SplashController.swift */,
+				01B8351724572C5200E779EA /* IntroController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		014D828A244F595900D34B09 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				014D828C244F597400D34B09 /* Font */,
+				014D828B244F596F00D34B09 /* Image */,
+				014D827B244F58EE00D34B09 /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		014D828B244F596F00D34B09 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		014D828C244F597400D34B09 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				01AD74D024548E68003ACA4A /* Quicksand-Bold.ttf */,
+				01AD74D124548E68003ACA4A /* Quicksand-Light.ttf */,
+				01AD74D224548E68003ACA4A /* Quicksand-Medium.ttf */,
+				01AD74D324548E68003ACA4A /* Quicksand-Regular.ttf */,
+				01AD74D424548E68003ACA4A /* Quicksand-SemiBold.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		09C71D7EEA6E5DE954820E42 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B0D4DE08097507E2A821B6A /* Pods-TLUJob.debug.xcconfig */,
+				4E8F0938664E4BB33C16D88A /* Pods-TLUJob.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		952BB7BBC2DBFDCCE666DAD6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7F149194D1C0C91FC3FC66D /* Pods_TLUJob.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		014D826E244F58EB00D34B09 /* TLUJob */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 014D8283244F58EE00D34B09 /* Build configuration list for PBXNativeTarget "TLUJob" */;
+			buildPhases = (
+				408AB7456607F4452001A681 /* [CP] Check Pods Manifest.lock */,
+				014D826B244F58EB00D34B09 /* Sources */,
+				014D826C244F58EB00D34B09 /* Frameworks */,
+				014D826D244F58EB00D34B09 /* Resources */,
+				5FAD27CA376FB488721E4064 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TLUJob;
+			productName = TLUJob;
+			productReference = 014D826F244F58EB00D34B09 /* TLUJob.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		014D8267244F58EB00D34B09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Liam Vu";
+				TargetAttributes = {
+					014D826E244F58EB00D34B09 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = 014D826A244F58EB00D34B09 /* Build configuration list for PBXProject "TLUJob" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 014D8266244F58EB00D34B09;
+			productRefGroup = 014D8270244F58EB00D34B09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				014D826E244F58EB00D34B09 /* TLUJob */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		014D826D244F58EB00D34B09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				014D827F244F58EE00D34B09 /* LaunchScreen.storyboard in Resources */,
+				014D827C244F58EE00D34B09 /* Assets.xcassets in Resources */,
+				014D827A244F58EB00D34B09 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		408AB7456607F4452001A681 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TLUJob-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5FAD27CA376FB488721E4064 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TLUJob/Pods-TLUJob-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TLUJob/Pods-TLUJob-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TLUJob/Pods-TLUJob-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		014D826B244F58EB00D34B09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01B8351824572C5200E779EA /* IntroController.swift in Sources */,
+				014D828E244F686500D34B09 /* Custombutton.swift in Sources */,
+				014D8277244F58EB00D34B09 /* LoginController.swift in Sources */,
+				014D8273244F58EB00D34B09 /* AppDelegate.swift in Sources */,
+				014D8275244F58EB00D34B09 /* SceneDelegate.swift in Sources */,
+				01AD74CF24547CD0003ACA4A /* SplashController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		014D8278244F58EB00D34B09 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				014D8279244F58EB00D34B09 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		014D827D244F58EE00D34B09 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				014D827E244F58EE00D34B09 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		014D8281244F58EE00D34B09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		014D8282244F58EE00D34B09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		014D8284244F58EE00D34B09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B0D4DE08097507E2A821B6A /* Pods-TLUJob.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 897N7X3TQK;
+				INFOPLIST_FILE = TLUJob/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LiamVu.TLUJob;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		014D8285244F58EE00D34B09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E8F0938664E4BB33C16D88A /* Pods-TLUJob.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 897N7X3TQK;
+				INFOPLIST_FILE = TLUJob/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LiamVu.TLUJob;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		014D826A244F58EB00D34B09 /* Build configuration list for PBXProject "TLUJob" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				014D8281244F58EE00D34B09 /* Debug */,
+				014D8282244F58EE00D34B09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		014D8283244F58EE00D34B09 /* Build configuration list for PBXNativeTarget "TLUJob" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				014D8284244F58EE00D34B09 /* Debug */,
+				014D8285244F58EE00D34B09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 014D8267244F58EB00D34B09 /* Project object */;
+}
